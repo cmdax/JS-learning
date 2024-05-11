@@ -1,2 +1,2 @@
 # JS-learning
-This repos if for learning the basics of Javascript.
+This repos is for learning the basics of Javascript.
