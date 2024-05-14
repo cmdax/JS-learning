@@ -22,7 +22,15 @@ divBlack.style.border = 'black solid 3px';
 container.appendChild(divBlack);
 
     // <h1> 'I'm inside a div'
+let newH1 = document.createElement('h1');
+newH1.textContent = "I'm inside a div!";
+
+divBlack.appendChild(newH1);
     
     // <p> 'ME TOO!'
+let newP = document.createElement('p');
+newP.textContent = "Me too!";
+
+divBlack.appendChild(newP);
 
     
