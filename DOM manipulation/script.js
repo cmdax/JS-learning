@@ -8,6 +8,11 @@ pRed.textContent = "Hey, I'm red!";
 
 container.appendChild(pRed);
 // <h3> blue text 'I'm blue h3!'
+let h3Blue = document.createElement('h3');
+h3Blue.style.color = 'blue';
+h3Blue.textContent = "I'm blue h3!";
+
+container.appendChild(h3Blue);
 
 // <div>, black border, pink background
 
