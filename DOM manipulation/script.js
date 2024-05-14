@@ -15,6 +15,11 @@ h3Blue.textContent = "I'm blue h3!";
 container.appendChild(h3Blue);
 
 // <div>, black border, pink background
+let divBlack = document.createElement('div');
+divBlack.style.backgroundColor = 'pink';
+divBlack.style.border = 'black solid 3px';
+
+container.appendChild(divBlack);
 
     // <h1> 'I'm inside a div'
     
